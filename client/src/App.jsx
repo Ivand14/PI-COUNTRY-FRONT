@@ -11,6 +11,7 @@ import Nav from './components/Nav/Nav'
 import ResultsSearch from './components/SearchBar/ResultsSearch'
 import axios from 'axios'
 
+axios.defaults.baseURL = 'https://pi-back-production-e9b7.up.railway.app/'
 function App() {
   
   const location = useLocation()

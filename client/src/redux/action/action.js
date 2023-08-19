@@ -9,7 +9,7 @@ export const GET_ACTIVITY = 'GET_ACTIVITY';
 export const DELETE_ACTIVITY = 'DELETE_ACTIVITY';
 export const DETAIL = 'DETAIL';
 export const CLEAR_DETAIL = 'CLEAR_DETAIL';
-
+axios.defaults.baseURL = 'https://pi-back-production-e9b7.up.railway.app/'
 export const search = (name) => {
   return async (dispatch) => {
     try {

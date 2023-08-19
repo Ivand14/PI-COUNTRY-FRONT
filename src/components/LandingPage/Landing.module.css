@@ -14,6 +14,11 @@
     align-items: center;
 }
 
+.containerTitle{
+  display: flex;
+  justify-content: center;
+}
+
 .title{
     font-size: 2.3rem;
     margin-top: 10rem;
@@ -42,9 +47,17 @@
   }
 
   @media (min-width: 200px) and (max-width: 500px){
+    .containerTitle{
+      display: flex;
+      justify-content: center;
+      width: 26rem;
+      margin-left: 0.1rem;
+      padding: .1rem;
+    }
+    
     .title{
-      font-size: 1rem;
-      margin: 20rem 2rem 2rem 2rem;
+      font-size: 1.1rem;
+      margin: 15rem 2rem 2rem 2rem;
       color: aliceblue;
       align-items: center;
   }

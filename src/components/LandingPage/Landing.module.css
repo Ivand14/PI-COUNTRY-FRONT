@@ -46,7 +46,7 @@
     outline: 4px auto -webkit-focus-ring-color;
   }
 
-  @media (min-width: 200px) and (max-width: 550px){
+  @media (min-width: 200px) and (max-width: 650px){
     .containerTitle{
       display: flex;
       justify-content: center;

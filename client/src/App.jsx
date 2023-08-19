@@ -9,9 +9,8 @@ import HomePage from './components/HomePage/HomePage'
 import LandingPage from './components/LandingPage/LandingPage'
 import Nav from './components/Nav/Nav'
 import ResultsSearch from './components/SearchBar/ResultsSearch'
-import axios from 'axios'
 
-axios.defaults.baseURL = 'https://pi-back-production-e9b7.up.railway.app/'
+export const baseURL = 'https://pi-back-production-e9b7.up.railway.app/'
 
 
 function App() {
